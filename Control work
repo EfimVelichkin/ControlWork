@@ -1,0 +1,7 @@
+string [] ArrString1;
+int count;
+string s;
+string [] ArrString2;
+Console.Write("Введите строку ");
+count = 0;
+ArrString1 = new string [count];
