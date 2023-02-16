@@ -5,3 +5,10 @@ string [] ArrString2;
 Console.Write("Введите строку ");
 count = 0;
 ArrString1 = new string [count];
+do {
+    s = Console.ReadLine();
+    if (s!="") {
+        count++;
+        ArrString2 = new string [count];
+    }
+} while(s !="");
